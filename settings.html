@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script src="settings.js" defer></script>
+<title>Settings Panel</title>
+
+</head>
+
+<body>
+  
+
+
+
+<div class="settings-container">
+
+  <div class="panel" id="image-settings">
+
+    <label for="image-url">Enter image URL</label>
+
+    <input type="text" id="image-url">
+
+    <button>Save Image URL</button>
+
+  </div>
+
+  <div class="panel" id="particles-settings">
+
+    <label>Add particles</label>
+
+    <input>
+
+    <button>Add Particles</button>
+    <button>Remove Particles</button>
+
+
+  </div>
+
+  <div class="panel" id="themes-settings">
+
+  <label for="theme-select">Choose Theme</label>
+
+    <select id="theme-select">
+
+        <option value="default">Default</option>
+
+        <option value="techno">Techno</option>
+
+        <option value="oceanic">Oceanic</option>
+
+        <option value="galaxy">Galaxy</option>
+
+        <option value="cyberpunk">Cyberpunk</option>
+
+        <option value="gaming">Gaming</option>
+
+        <option value="hacker">Hacker</option>
+
+        <option value="midnight">Midnight</option>
+    
+      <option value="crimson">Crimson</option>
+
+
+    </select>
+
+    <button id="save-theme-button" onclick="onSaveTheme()">Save Theme</button>
+    
+
+
+
+
+  </div>
+
+   
+
+  <div class="panel" id="background-settings">
+
+    <label for="background-upload">Upload Background</label>
+
+    <input type="file" id="background-upload" accept="image/*">
+
+    <button onclick="uploadBackground()">Upload Background</button>
+
+  </div>
+
+</div>

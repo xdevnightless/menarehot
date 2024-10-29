@@ -1,0 +1,40 @@
+:root {
+  --background: radial-gradient(circle, #000000, #0b1145);
+  --star-color: #FFFFFF;
+  --nebula-color: #a2bedb;
+}
+body {
+  background: var(--background);
+  color: white;
+}
+.star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: var(--star-color);
+  border-radius: 50%;
+}
+.nebula {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--nebula-color);
+  opacity: 0.8;
+}
+.spaceship {
+  width: 50px;
+  height: 50px;
+  background-image: url('spaceship.png');
+  background-size: cover;
+}
+.planet {
+  width: 100px;
+  height: 100px;
+  background-image: url('planet.png');
+  background-size: cover;
+}
+.meteor {
+  width: 5px;
+  height: 20px;
+  background: linear-gradient(transparent, #FFFFFF);
+}

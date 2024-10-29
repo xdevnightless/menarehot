@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="apps.css"/>
+  <link rel="stylesheet" href="games.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="settings.js" defer></script>
+  <script src="search.js" defer></script>
+
+
+
+
+
+
+  
+
+
+     <style>
+        body {
+          font-family: sans-serif;
+          margin: 0;
+        }
+        .game-links {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 10px;
+        }
+        .game-link {
+          width: calc(10% - 10px);
+          margin: 5px;
+          text-align: center;
+          border-radius: 10px;
+          overflow: hidden;
+        }
+        .game-link img {
+          width: 100%;
+          height: auto;
+          border-radius: 50%;
+        }
+        .game-link p {
+          font-size: 0.8rem;
+          margin: 5px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        @media (max-width: 768px) {
+          .game-link {
+            width: calc(20% - 10px);
+          }
+        }
+        @media (max-width: 480px) {
+          .game-link {
+            width: calc(25% - 10px);
+          }
+        }
+       .app-card {
+         background: #484848;
+         padding-left: 7px;
+         padding-right: 7px;
+         padding-top: 4px;
+         padding-bottom: 20px;
+         border-radius:5px;
+         text-align: center;
+         margin: 10px;
+         width: 105px; 
+       }
+
+       img {
+         margin: auto;
+         display: block;
+         border-radius:7%;
+       }
+
+       a {
+         color: white;
+         text-decoration:none;
+         font-weight: bold;
+       }
+       .search-bar {
+         
+       }
+      </style>
+  <!-- Ad Tags -->
+  <div id="adTags">
+    <!-- 300x250 -->
+    <div id="ad_300x250">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '2f81ce83639c7772cb9361fe6af8b1e0',
+          'format' : 'iframe',
+          'height' : 250,
+          'width' : 300,
+          'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/2f81ce83639c7772cb9361fe6af8b1e0/invoke.js"></scr' + 'ipt>');
+      </script>
+    </div> </div>
+
+    <!-- 320x50 -->
+    <div id="ad_320x50">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '9d799e2a2f13748bc58282f8266f78fb',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/9d799e2a2f13748bc58282f8266f78fb/invoke.js"></scr' + 'ipt>');
+      </script>
+    </div>
+  
+    <nav>
+    <div class="heading">
+    </div>
+  
+    </ul>
+  </nav>
+
+  <div class="search-bar" style="display: flex; justify-content: center;">
+    <form id="searchForm" onsubmit="return false;">
+      <input id="searchApps" placeholder="Search Apps" class="searchbar">
+    </form>
+  </div>
+  <br>
+  <div class="apps">
+    <div class="search-results" style="display: flex; justify-content: center; flex-wrap: wrap; gap:10px;">
+      <div id="searchMessage" style="color:white;display:none;text-align: center;font-size: 30px;margin:20px;font-family:Montserrat,sans-serif;"></div>
+
+  
+
+      <div class="app-card">
+      <a href="https://scootydooter.vercel.app/   
+" class="https://scootydooter.vercel.app/   
+" onclick=Movie web()">
+
+        <img src="Apps/movie-web.webp" alt="Movie web" style="width:100px;height:100px;">
+
+        <br>Movie web
+
+      </a> 
+      </div>
+      <div class="app-card">
+      <a href="https://instagram.com" class="https://instagram.com" onclick=Instagram()">
+
+        <img src="Apps/instagram (1).png" alt="Instagram" style="width:100px;height:100px;">
+
+        <br>Instagram
+
+      </a> 
+      </div>
+
+      <div class="app-card">
+        <a href="https://www.reddit.com
+" class="https://www.reddit.com
+" onclick="Reddit()">
+
+      <img src="Apps/reddit.png" alt="Reddit" style="width:100px;height:100px;">
+
+      <br>Reddit
+
+    </a> </div>
+      
+        <div class="app-card">
+        <a href="https://replit.com" class="https://replit.com" onclick="Replit()">
+
+      <img src="Apps/replit.png" alt="Replit" style="width:100px;height:100px;">
+      <br>Replit
+
+    </a> </div>
+
+      <div class="app-card">
+      <a href="https://open.spotify.com/" class="https://open.spotify.com/" onclick="Spotify()">
+
+      <img src="Apps/spotify.png" alt="Spotify" style="width:100px;height:100px;">
+
+      <br>Spotify
+
+    </a> </div>
+      
+      <div class="app-card">
+      <a href="https://twitch.tv" class="https://twitch.tv" onclick="Twitch()">
+
+      <img src="Apps/twitch.png" alt="Twitch" style="width:100px;height:100px;">
+
+      <br>Twitch
+
+    </a> </div>
+      
+      <div class="app-card">
+      <a href="https://cpstest.org
+" class="https://cpstest.org
+" onclick="CPS Tester()">
+
+      <img src="Apps/OIP.jpg" alt="CPS Tester" style="width:100px;height:100px;">
+
+      <br>CPS Tester
+
+    </a></div>
+
+      <div class="app-card">
+       <a href="https://tiktok.com" class="https://tiktok.com" onclick="Tiktok()">
+
+        <img src="Apps/tiktok (1).png" alt="Tiktok" style="width:100px;height:100px;">
+
+        <br>Tiktok
+
+      </a>
+
+      </div>
+
+      <div class="app-card">
+      <a href="https://roblox.com" class="https://Roblox.com" onclick="Roblox()">
+
+        <img src="Apps/roblox (1).png" alt="Roblox" style="width:100px;height:100px;">
+
+        <br>Roblox
+
+      </a></div>
+
+      <div class="app-card">
+      <a href="https://soundcloud.com
+" class="https://soundcloud.com
+" onclick="SoundCloud()">
+
+        <img src="Apps/soundcloud.png" alt="Soundcloud" style="width:100px;height:100px;">
+
+        <br>SoundCloud
+
+      </a>
+      </div>
+
+      <div class="app-card">
+      <a href="https://google.com" class="https://google.com" onclick="Widgetbot()">
+
+        <img src="Apps/widger.png" alt="Widgetbot" style="width:100px;height:100px;">
+
+        <br>Widgetbot
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://coolmathgames.com" class="https://coolmathgames.com" onclick="Coolmath Games()">
+
+        <img src="Apps/coolmathgames.png" alt="coolmathgames" style="width:100px;height:100px;">
+
+        <br>Coolmath Games
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://crazygames.com" class="https://crazygames.com" onclick="Crazygames()">
+
+        <img src="Apps/crazygames.jpg" alt="Crazygames" style="width:100px;height:100px;">
+
+        <br>Crazygames
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://github.com" class="https://github.com" onclick="Fortnite()">
+
+        <img src="Apps/github.png" alt="Github" style="width:100px;height:100px;">
+
+        <br>Github
+
+      </a> </div>
+
+      <div class="app-card">
+       <a href="https://play.geforcenow.com" class="https://play.geforcenow.com" onclick="Geforce()">
+
+        <img src="Apps/geforce.png" alt="Geforce" style="width:100px;height:100px;">
+
+        <br>Geforce
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://chess.com" class="https://chess.com" onclick="Chess()">
+
+        <img src="Apps/chess.png" alt="Chess" style="width:100px;height:100px;">
+
+        <br>Chess
+
+      </a> </div>
+
+      <div class="app-card">
+       <a href="https://canary.discord.com" class="https://canary.discord.com" onclick="Discord()">
+
+        <img src="Apps/discord.jpg" alt="discord" style="width:100px;height:100px;">
+
+        <br>Discord
+
+      </a>
+
+      </div>
+      
+      <div class="app-card">
+      <a href="https://amazon.com/" class="https://amazon.com/" onclick="Amazon()">
+
+        <img src="Apps/amazon.png" alt="Amazon" style="width:100px;height:100px;">
+
+        <br>Amazon
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://web.whatsapp.com/" class="https://web.whatsapp.com/" onclick="Whatsapp()">
+
+        <img src="Apps/whatsapp.png" alt="whatsapp" style="width:100px;height:100px;">
+
+        <br>Whatsapp
+
+      </a>
+      </div>
+
+      <div class="app-card">
+      <a href="https://youtube.com/" class="https://youtube.com/" onclick="Youtube()">
+
+        <img src="Apps/youTube.png" alt="Amazon" style="width:100px;height:100px;">
+
+        <br>Youtube
+
+      </a> </div>
+
+
+      <div class="app-card">
+      <a href="https://openai.com/index/chatgpt/" class="https://openai.com/index/chatgpt/" onclick="Youtube()">
+
+        <img src="Apps/chatgpt.jpg" alt="Chatgpt" style="width:100px;height:100px;">
+
+        <br>Chatgpt
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://vscode.dev//" class="https://vscode.dev//" onclick="Vscode()">
+
+        <img src="Apps/vs.png" alt="Vscode" style="width:100px;height:100px;">
+
+        <br>Vscode
+
+      </a> </div>
+
+      <div class="app-card">
+        <a href="https://crunchyroll.com//" class="https://crunchyroll.com//" onclick="Crunchyroll()">
+
+          <img src="Apps/crunchyroll.png" alt="Crunchyroll" style="width:100px;height:100px;">
+
+          <br>Crunchyroll
+
+        </a> </div>
+
+      <div class="app-card">
+          <a href="https://bing.com//" class="https://bing.com//" onclick="Bing()">
+
+            <img src="Apps/bing.png" alt="Bing" style="width:100px;height:100px;">
+
+            <br>Bing
+
+          </a> </div>
+
+      <div class="app-card">
+      <a href="https://pokemongolive.com
+" class="https://pokemongolive.com
+" onclick="Pokemon Go()">
+
+        <img src="Apps/pokemongo.png" alt="Pokemon Go" style="width:100px;height:100px;">
+
+        <br>Pokemon Go
+
+      </a> </div>
+
+    
+
+
+      <div class="app-card">
+      <a href="https://https://www.steam.com//" class="https://steam.com//" onclick="Steam()">
+
+        <img src="Apps/steam.png" alt="Steam" style="width:100px;height:100px;">
+
+        <br>Steam
+
+      </a> </div>
+
+      <div class="app-card">
+        <a href="https://https://yahoo.com//" class="https://Yahoo.com//" onclick="Yahoo()">
+
+          <img src="Apps/yahoo.png" alt="Yahoo" style="width:100px;height:100px;">
+
+          <br>Yahoo
+
+        </a> </div>
+
+      <div class="app-card">
+      <a href="https://https://Snapchat.com//" class="https://Snapchat.com//" onclick="Snapchat()">
+
+        <img src="Apps/snaphat.png" alt="Snapchat" style="width:100px;height:100px;">
+
+        <br>Snapchat
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://eaglercracker.vercel.app/clients.html" class="https://eaglercracker.vercel.app/clients.html" onclick="MineCraft()">
+
+        <img src="Apps/minecraft.png" alt="MineCraft" style="width:100px;height:100px;">
+
+        <br>MineCraft
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://https://Operagx.com//" class="https://Operagx.com//" onclick="Operagx()">
+
+        <img src="Apps/operagx.png" alt="Operagx" style="width:100px;height:100px;">
+
+        <br>Operagx
+
+      </a> </div>
+
+      <div class="app-card">
+        <a href="https://https://Netflix.com//" class="https://Netflix.com//" onclick="ONetflix()">
+
+          <img src="Apps/netflix.png" alt="Netflix" style="width:100px;height:100px;">
+
+          <br>Netflix
+
+        </a> </div>
+
+      <div class="app-card">
+      <a href="https://www.max.com/" class="https://www.max.com//" onclick="HBO max()">
+
+        <img src="Apps/max.png" alt="Hbomax" style="width:100px;height:100px;">
+
+        <br>HBO max
+
+      </a> </div>
+
+      <div class="app-card">
+      <a href="https://www.paramountplus.com/" class="https://www.paramountplus.com/" onclick="Paramount()">
+
+        <img src="Apps/paramount.png" alt="Paramount" style="width:100px;height:100px;">
+
+        <br>Paramount
+
+      </a> </div>
+
+
+      <div class="app-card">
+      <a href="www.pinterest.com
+" class="www.pinterest.com
+" onclick=">Pinterest()">
+
+        <img src="Apps/pinterest.png" alt=">Pinterest" style="width:100px;height:100px;">
+
+        <br>Pinterest
+
+      </a> </div>
+
+
+
+      </body>
+
+
+
+      
